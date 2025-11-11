@@ -60,12 +60,14 @@ export function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 flex-wrap">
-          <Button
-            size="lg"
-            className="bg-[#26C8B8] text-[#021C24] hover:bg-[#26C8B8]/90 hover:shadow-lg hover:shadow-[#26C8B8]/40 hover:scale-[1.02] px-8 text-sm font-medium rounded-lg transition-all duration-300 cubic-bezier(0.4, 0, 0.2, 1) min-h-[44px]"
-          >
-            Join the Presale
-          </Button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSqQpCL-C2rBqRiS-z2kk01AzA2q2lM0Tevk0_JYiE6bzIIg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-[#26C8B8] text-[#021C24] hover:bg-[#26C8B8]/90 hover:shadow-lg hover:shadow-[#26C8B8]/40 hover:scale-[1.02] px-8 text-sm font-medium rounded-lg transition-all duration-300 cubic-bezier(0.4, 0, 0.2, 1) min-h-[44px]"
+            >
+              Join the Presale
+            </Button>
+          </a>
 
           <Button
             size="lg"
