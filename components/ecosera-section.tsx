@@ -61,20 +61,21 @@ export function EcoseraSection() {
           </p>
         </div>
 
-        {/* Logo showcase — symbol + CSS text for dark bg compatibility */}
+        {/* Logo showcase — symbol + CSS text, tightly grouped */}
         <div className="flex flex-col items-center mb-16">
-          <div className="relative mb-4">
-            <div className="absolute inset-0 bg-[#c9a84c]/15 blur-3xl rounded-full scale-150" />
+          <div className="relative flex flex-col items-center">
+            <div className="absolute inset-0 bg-[#c9a84c]/10 blur-[60px] rounded-full scale-[2]" />
             <img
               src="/images/ecosera-symbol.png"
               alt="ecosera"
-              className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 object-contain drop-shadow-[0_0_30px_rgba(201,168,76,0.35)]"
+              className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 object-contain drop-shadow-[0_0_30px_rgba(201,168,76,0.4)]"
+              style={{ mixBlendMode: 'screen' }}
             />
+            <div className="relative text-4xl sm:text-5xl md:text-6xl font-extralight tracking-tight leading-none -mt-2 sm:-mt-3">
+              <span className="text-white">eco</span><span className="text-[#c9a84c] font-light">sera</span>
+            </div>
           </div>
-          <div className="text-4xl sm:text-5xl md:text-6xl font-extralight tracking-tight">
-            <span className="text-white">eco</span><span className="text-[#c9a84c] font-light">sera</span>
-          </div>
-          <div className="text-sm text-white/50 font-light mt-2 tracking-[0.15em] uppercase">Clinical Trials Operating Ecosystem</div>
+          <div className="text-xs sm:text-sm text-white/40 font-light mt-3 tracking-[0.2em] uppercase">Clinical Trials Operating Ecosystem</div>
         </div>
 
         {/* Capabilities grid */}
@@ -112,7 +113,7 @@ export function EcoseraSection() {
               size="lg"
               className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#e8b84b] hover:shadow-lg hover:shadow-[#c9a84c]/40 hover:scale-[1.02] px-10 text-sm font-medium rounded-lg transition-all duration-300 min-h-[44px] flex items-center gap-2 mx-auto"
             >
-              <img src="/images/ecosera-symbol.png" alt="" className="w-7 h-7 object-contain" />
+              <img src="/images/ecosera-symbol.png" alt="" className="w-7 h-7 object-contain" style={{ filter: 'brightness(0.15)' }} />
               Launch ecosera Platform
             </Button>
           </a>
