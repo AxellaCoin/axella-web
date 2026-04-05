@@ -74,6 +74,15 @@ export function Navigation() {
             >
               Roadmap
             </Link>
+            <a
+              href="https://ecosera.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#c9a84c] hover:text-[#e8b84b] transition-all duration-300 font-medium text-sm min-h-[44px] flex items-center gap-2 hover:scale-105"
+            >
+              <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-5 h-5 object-contain" />
+              ecosera
+            </a>
           </div>
 
           <div className="flex items-center gap-3">
@@ -139,6 +148,16 @@ export function Navigation() {
                   Community
                 </a>
               </Button>
+              <a
+                href="https://ecosera.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#c9a84c] hover:text-[#e8b84b] transition-colors font-medium text-base py-2 flex items-center gap-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-5 h-5 object-contain" />
+                ecosera Platform
+              </a>
             </div>
           </div>
         )}

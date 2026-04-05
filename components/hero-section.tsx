@@ -82,6 +82,16 @@ export function HeroSection() {
           >
             Read the Whitepaper
           </Button>
+
+          <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#e8b84b] hover:shadow-lg hover:shadow-[#c9a84c]/40 hover:scale-[1.02] px-8 text-sm font-medium rounded-lg transition-all duration-300 min-h-[44px] flex items-center gap-2"
+            >
+              <img src="/images/ecosera-symbol.png" alt="" className="w-5 h-5 object-contain" />
+              Launch ecosera
+            </Button>
+          </a>
         </div>
       </div>
     </section>

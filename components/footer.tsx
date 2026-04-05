@@ -60,6 +60,12 @@ export function Footer() {
                   For Vendors
                 </Link>
               </li>
+              <li>
+                <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer" className="text-[#c9a84c] hover:text-[#e8b84b] transition-colors font-medium text-sm flex items-center gap-1.5">
+                  <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-4 h-4 object-contain" />
+                  ecosera Platform
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -131,7 +137,7 @@ export function Footer() {
 
         <div className="border-t border-[#094068] pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
-            <p className="text-white/70 text-sm font-light">© 2025 AxellaCoin. All rights reserved.</p>
+            <p className="text-white/70 text-sm font-light flex items-center gap-2 flex-wrap">© 2025 AxellaCoin. All rights reserved. <span className="text-white/40">·</span> <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors"><img src="/images/ecosera-symbol.png" alt="" className="w-3.5 h-3.5 object-contain opacity-70" />ecosera</a></p>
             <p className="text-white/60 text-xs text-center max-w-2xl font-light leading-relaxed">
               Cryptocurrency investments are subject to market risk. Past performance is not indicative of future
               results. This is not financial advice.

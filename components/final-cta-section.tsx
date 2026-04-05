@@ -26,6 +26,15 @@ export function FinalCTASection() {
           >
             Read Whitepaper
           </Button>
+          <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#e8b84b] px-10 font-medium rounded-lg shadow-lg hover:shadow-xl transition-all flex items-center gap-2"
+            >
+              <img src="/images/ecosera-symbol.png" alt="" className="w-5 h-5 object-contain" />
+              Explore ecosera
+            </Button>
+          </a>
         </div>
       </div>
     </section>
