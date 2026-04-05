@@ -13,6 +13,7 @@ import { StakeSupportSection } from "@/components/stake-support-section"
 import { BuyAXTCSection } from "@/components/buy-axtc-section"
 import { TeamSection } from "@/components/team-section"
 import { RoadmapSection } from "@/components/roadmap-section"
+import { EcoseraSection } from "@/components/ecosera-section"
 import { LegalDisclaimer } from "@/components/legal-disclaimer"
 import { Footer } from "@/components/footer"
 
@@ -34,6 +35,7 @@ export default function Home() {
       <BuyAXTCSection />
       <TeamSection />
       <RoadmapSection />
+      <EcoseraSection />
       <LegalDisclaimer />
       <Footer />
     </main>
