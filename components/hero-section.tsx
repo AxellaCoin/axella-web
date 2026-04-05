@@ -88,7 +88,7 @@ export function HeroSection() {
               size="lg"
               className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#e8b84b] hover:shadow-lg hover:shadow-[#c9a84c]/40 hover:scale-[1.02] px-8 text-sm font-medium rounded-lg transition-all duration-300 min-h-[44px] flex items-center gap-2"
             >
-              <img src="/images/ecosera-symbol.png" alt="" className="w-7 h-7 object-contain" style={{ filter: 'brightness(0.15)' }} />
+              <img src="/images/ecosera-symbol.png" alt="" className="w-10 h-10 object-contain rounded-full" style={{ filter: 'brightness(0.15)' }} />
               Launch ecosera
             </Button>
           </a>

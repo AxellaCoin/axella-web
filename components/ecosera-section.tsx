@@ -68,10 +68,10 @@ export function EcoseraSection() {
             <img
               src="/images/ecosera-symbol.png"
               alt="ecosera"
-              className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 object-contain drop-shadow-[0_0_30px_rgba(201,168,76,0.4)]"
-              style={{ mixBlendMode: 'screen' }}
+              className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 object-contain drop-shadow-[0_0_30px_rgba(201,168,76,0.4)] rounded-[28px] sm:rounded-[36px] md:rounded-[44px]"
+              style={{ mixBlendMode: 'screen', background: 'radial-gradient(circle, rgba(2,28,36,1) 40%, transparent 70%)' }}
             />
-            <div className="relative text-4xl sm:text-5xl md:text-6xl font-extralight tracking-tight leading-none -mt-2 sm:-mt-3">
+            <div className="relative text-4xl sm:text-5xl md:text-6xl font-extralight tracking-tight leading-none -mt-6 sm:-mt-8 md:-mt-10">
               <span className="text-white">eco</span><span className="text-[#c9a84c] font-light">sera</span>
             </div>
           </div>
@@ -113,7 +113,7 @@ export function EcoseraSection() {
               size="lg"
               className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#e8b84b] hover:shadow-lg hover:shadow-[#c9a84c]/40 hover:scale-[1.02] px-10 text-sm font-medium rounded-lg transition-all duration-300 min-h-[44px] flex items-center gap-2 mx-auto"
             >
-              <img src="/images/ecosera-symbol.png" alt="" className="w-7 h-7 object-contain" style={{ filter: 'brightness(0.15)' }} />
+              <img src="/images/ecosera-symbol.png" alt="" className="w-10 h-10 object-contain rounded-full" style={{ filter: 'brightness(0.15)' }} />
               Launch ecosera Platform
             </Button>
           </a>
