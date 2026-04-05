@@ -80,8 +80,8 @@ export function Navigation() {
               rel="noopener noreferrer"
               className="text-[#c9a84c] hover:text-[#e8b84b] transition-all duration-300 font-medium text-sm min-h-[44px] flex items-center gap-2 hover:scale-105"
             >
-              <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-7 h-7 object-contain" />
-              ecosera
+              <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-8 h-8 object-contain drop-shadow-[0_0_6px_rgba(201,168,76,0.4)]" />
+              <span><span className="text-white/90">eco</span><span className="text-[#c9a84c]">sera</span></span>
             </a>
           </div>
 
@@ -155,8 +155,8 @@ export function Navigation() {
                 className="text-[#c9a84c] hover:text-[#e8b84b] transition-colors font-medium text-base py-2 flex items-center gap-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-7 h-7 object-contain" />
-                ecosera Platform
+                <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-8 h-8 object-contain drop-shadow-[0_0_6px_rgba(201,168,76,0.4)]" />
+                <span><span className="text-white/90">eco</span><span className="text-[#c9a84c]">sera</span> Platform</span>
               </a>
             </div>
           </div>

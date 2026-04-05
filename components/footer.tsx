@@ -61,9 +61,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer" className="text-[#c9a84c] hover:text-[#e8b84b] transition-colors font-medium text-sm flex items-center gap-1.5">
-                  <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-5 h-5 object-contain" />
-                  ecosera Platform
+                <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer" className="text-[#c9a84c] hover:text-[#e8b84b] transition-colors font-medium text-sm flex items-center gap-2">
+                  <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-6 h-6 object-contain drop-shadow-[0_0_4px_rgba(201,168,76,0.3)]" />
+                  <span><span className="text-white/80">eco</span><span className="text-[#c9a84c]">sera</span> Platform</span>
                 </a>
               </li>
             </ul>
@@ -137,7 +137,7 @@ export function Footer() {
 
         <div className="border-t border-[#094068] pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
-            <p className="text-white/70 text-sm font-light flex items-center gap-2 flex-wrap">© 2025 AxellaCoin. All rights reserved. <span className="text-white/40">·</span> <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors"><img src="/images/ecosera-symbol.png" alt="" className="w-4 h-4 object-contain opacity-70" />ecosera</a></p>
+            <p className="text-white/70 text-sm font-light flex items-center gap-2 flex-wrap">© 2025 AxellaCoin. All rights reserved. <span className="text-white/40">·</span> <a href="https://ecosera.io" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[#c9a84c]/70 hover:text-[#c9a84c] transition-colors"><img src="/images/ecosera-symbol.png" alt="" className="w-5 h-5 object-contain opacity-80 drop-shadow-[0_0_3px_rgba(201,168,76,0.3)]" /><span className="text-white/60">eco</span><span className="text-[#c9a84c]/70">sera</span></a></p>
             <p className="text-white/60 text-xs text-center max-w-2xl font-light leading-relaxed">
               Cryptocurrency investments are subject to market risk. Past performance is not indicative of future
               results. This is not financial advice.

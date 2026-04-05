@@ -43,9 +43,9 @@ export function EcoseraSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center mb-16 md:mb-20">
-          <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full border border-[#c9a84c]/30 bg-[#c9a84c]/5 backdrop-blur-sm mb-8">
-            <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-8 h-8 object-contain" />
-            <span className="text-sm font-medium text-[#c9a84c] tracking-wide">The Operating Platform</span>
+          <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-[#c9a84c]/30 bg-[#c9a84c]/5 backdrop-blur-sm mb-8">
+            <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-10 h-10 object-contain drop-shadow-[0_0_8px_rgba(201,168,76,0.4)]" />
+            <span className="text-base font-medium text-[#c9a84c] tracking-wide">The Operating Platform</span>
           </div>
 
           <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-extralight mb-6 leading-[1.1] tracking-tight text-balance">
@@ -61,16 +61,20 @@ export function EcoseraSection() {
           </p>
         </div>
 
-        {/* Logo showcase */}
-        <div className="flex justify-center mb-16">
-          <div className="relative">
-            <div className="absolute inset-0 bg-[#c9a84c]/10 blur-3xl rounded-full" />
+        {/* Logo showcase — symbol + CSS text for dark bg compatibility */}
+        <div className="flex flex-col items-center mb-16">
+          <div className="relative mb-4">
+            <div className="absolute inset-0 bg-[#c9a84c]/15 blur-3xl rounded-full scale-150" />
             <img
-              src="/images/ecosera-logo.png"
+              src="/images/ecosera-symbol.png"
               alt="ecosera"
-              className="relative h-24 sm:h-32 md:h-40 object-contain drop-shadow-2xl"
+              className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 object-contain drop-shadow-[0_0_30px_rgba(201,168,76,0.35)]"
             />
           </div>
+          <div className="text-4xl sm:text-5xl md:text-6xl font-extralight tracking-tight">
+            <span className="text-white">eco</span><span className="text-[#c9a84c] font-light">sera</span>
+          </div>
+          <div className="text-sm text-white/50 font-light mt-2 tracking-[0.15em] uppercase">Clinical Trials Operating Ecosystem</div>
         </div>
 
         {/* Capabilities grid */}
@@ -92,9 +96,9 @@ export function EcoseraSection() {
         {/* Connection banner */}
         <div className="rounded-2xl bg-gradient-to-r from-[#094068]/40 to-[#c9a84c]/10 border border-[#c9a84c]/20 p-8 sm:p-10 text-center backdrop-blur-md">
           <div className="flex items-center justify-center gap-4 mb-6">
-            <img src="/images/design-mode/image03(1).png" alt="AXC" className="w-10 h-10 rounded-full shadow-lg" />
-            <div className="w-16 h-px bg-gradient-to-r from-[#26C8B8] to-[#c9a84c]" />
-            <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-10 h-10 object-contain drop-shadow-lg" />
+            <img src="/images/design-mode/image03(1).png" alt="AXC" className="w-14 h-14 rounded-full shadow-lg shadow-[#26C8B8]/20" />
+            <div className="w-20 h-px bg-gradient-to-r from-[#26C8B8] to-[#c9a84c]" />
+            <img src="/images/ecosera-symbol.png" alt="ecosera" className="w-14 h-14 object-contain drop-shadow-[0_0_12px_rgba(201,168,76,0.4)]" />
           </div>
           <h3 className="text-2xl font-light text-white mb-3">
             <span className="text-[#26C8B8]">AxellaCoin</span> + <span className="text-[#c9a84c]">ecosera</span> = One Unified Ecosystem
@@ -108,7 +112,7 @@ export function EcoseraSection() {
               size="lg"
               className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#e8b84b] hover:shadow-lg hover:shadow-[#c9a84c]/40 hover:scale-[1.02] px-10 text-sm font-medium rounded-lg transition-all duration-300 min-h-[44px] flex items-center gap-2 mx-auto"
             >
-              <img src="/images/ecosera-symbol.png" alt="" className="w-6 h-6 object-contain" />
+              <img src="/images/ecosera-symbol.png" alt="" className="w-7 h-7 object-contain" />
               Launch ecosera Platform
             </Button>
           </a>
