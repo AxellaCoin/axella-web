@@ -17,7 +17,13 @@ const milestones = [
   {
     title: "First Clinical Trials",
     date: "Q2 2026",
-    impact: "Fund first compassionate use protocols through community voting",
+    impact: "Fund first compassionate use protocols, selected by the expert scientific and investment committee",
+    status: "planned",
+  },
+  {
+    title: "Staking Rewards & Airdrops",
+    date: "Future phase",
+    impact: "Staking rewards and community airdrops for AXC holders, subject to legal review. Funded from the AXC treasury, not from trial royalties or proceeds",
     status: "planned",
   },
   {
