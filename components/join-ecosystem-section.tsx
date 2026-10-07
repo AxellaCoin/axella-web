@@ -6,7 +6,7 @@ export function JoinEcosystemSection() {
     {
       title: "Investors",
       icon: TrendingUp,
-      description: "Access tokenized trial equity (RWA tokens) via Libertum SPVs. Accredited investors only.",
+      description: "Economic rights in one funded trial through a trial-specific SPV. Accredited investors only.",
       cta: "Explore RWA Tokens",
       href: "#investors",
     },
@@ -27,7 +27,7 @@ export function JoinEcosystemSection() {
     {
       title: "Community",
       icon: Users,
-      description: "Stake AXC to vote on which trials get funded",
+      description: "Stake AXC for platform governance",
       cta: "Get Started",
       href: "#supporters",
     },

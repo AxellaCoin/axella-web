@@ -29,14 +29,14 @@ export function LegalDisclaimer() {
                 <div>
                   <h4 className="font-medium text-white mb-2 text-base sm:text-lg">AXC (AxellaCoin) - Governance &amp; Utility Token</h4>
                   <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                    AXC is the governance and utility token of the AxellaCoin / ecosera ecosystem (1B fixed supply). Staking AXC lets holders vote on which trials get funded. AXC does not represent equity, ownership, or profit rights.
+                    AXC is the governance and utility token of the AxellaCoin / ecosera ecosystem (1B fixed supply). Holders vote on material platform changes and elect an investor representative; funding decisions sit with an expert committee, and releases follow verified milestones, not votes. AXC does not represent equity, ownership, or profit rights.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">RWA (Tokenized Trial Equity) - Securities Token</h4>
+                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">RWA (Trial Economics) - Securities Token</h4>
                   <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                    RWA tokens represent equity in individual funded clinical trials, issued via Libertum through trial-specific SPVs. They are offered under Reg D 506(c) in the US and Reg S internationally, to accredited investors only. This is a regulated security offering, separate from AXC.
+                    RWA tokens carry economic rights in one funded clinical trial through a trial-specific SPV: a tiered royalty on the molecule and a capped share of licensing or exit proceeds, with unreleased tranches returned if a trial stops. They are offered under Reg D 506(c) in the US and Reg S internationally, to accredited investors only. This is a regulated security offering, separate from AXC.
                   </p>
                 </div>
 
@@ -57,9 +57,9 @@ export function LegalDisclaimer() {
           <ul className="space-y-2">
             {[
               "Support for trial funding initiatives",
-              "Participation in Stake-to-Support campaigns",
+              "Staking for platform participation",
               "Access to CRO services (future phase)",
-              "Stake-to-vote governance on trial funding",
+              "Platform governance (material changes, investor representative)",
             ].map((item, index) => (
               <li key={index} className="text-sm sm:text-base text-white/90 font-light flex items-start gap-2">
                 <span className="text-[#26C8B8] mt-1">•</span>
@@ -84,7 +84,9 @@ export function LegalDisclaimer() {
 
         <p className="text-xs sm:text-sm text-white/80 font-light italic">
           The value of AXC may fluctuate. By using AXC, you acknowledge that it is a utility token, not a financial
-          instrument, and is used at your own discretion.
+          instrument, and is used at your own discretion. The trial-financing model described on this site is in
+          development and not yet available; nothing here is an offer to sell, or a solicitation of an offer to buy,
+          any security or token.
         </p>
       </div>
     </section>

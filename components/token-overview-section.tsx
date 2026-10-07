@@ -10,12 +10,12 @@ export function TokenOverviewSection() {
       color: "#26C8B8",
       borderColor: "rgba(38, 200, 184, 0.4)",
       description:
-        "The ecosystem's governance and utility token. Stake AXC to vote on which trials get funded on the ecosera platform. AXC does not represent equity, ownership, or profit rights.",
+        "Platform governance: holders vote on material changes and elect an investor representative. Funding decisions sit with an expert committee, and releases follow verified milestones, not votes. AXC carries no equity, ownership or profit rights.",
       features: [
         "1B fixed supply",
-        "$0.35 presale price",
-        "Stake-to-vote governance on trial funding",
-        "Treasury buyback & burn",
+        "Governance & utility",
+        "Elects an investor representative",
+        "No equity, ownership or profit rights",
       ],
     },
     {
@@ -26,7 +26,7 @@ export function TokenOverviewSection() {
       color: "#26C8B8",
       borderColor: "rgba(38, 200, 184, 0.4)",
       description:
-        "USD-pegged stablecoin for all platform payments: CRO bids, site payments, vendor invoices, and patient stipends. Keeps trial cash flows stable, predictable, and auditable.",
+        "USD-pegged stablecoin for all platform payments: CRO bids, site payments, vendor invoices, and patient stipends. Every payment reconciles to a milestone.",
       features: [
         "1:1 USD peg for stability",
         "Milestone-based trial and site payments",
@@ -36,18 +36,18 @@ export function TokenOverviewSection() {
     },
     {
       name: "RWA",
-      fullName: "Tokenized Trial Equity",
+      fullName: "Trial Economics",
       icon: Coins,
       type: "Securities Token",
       color: "#26C8B8",
       borderColor: "rgba(38, 200, 184, 0.4)",
       description:
-        "Tokenized equity in individual funded trials, issued via Libertum through trial-specific SPVs. Offered under Reg D 506(c) in the US and Reg S internationally, to accredited investors only.",
+        "Economic rights in one funded trial through a trial-specific SPV: a tiered royalty on the molecule (full rate in the funded indication, reduced in follow-on indications) and a share of licensing or exit proceeds, capped at a multiple. Unreleased tranches return to investors if a trial stops.",
       features: [
-        "Equity in trial-specific SPVs",
-        "Libertum-issued, SEC-compliant offering",
+        "Trial-specific SPV",
+        "Tiered royalty on the molecule",
+        "Capped share of licensing or exit proceeds",
         "Accredited investors only (Reg D 506(c) / Reg S)",
-        "Milestone-vested",
       ],
     },
   ]
@@ -66,7 +66,7 @@ export function TokenOverviewSection() {
             <span className="text-accent-cyan">Architecture</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto font-light leading-relaxed">
-            Purpose-built on Cardano. Governance, operations, and equity, each with a distinct token role.
+            Purpose-built on Cardano. Governance, operations, and trial economics, each with a distinct token role.
           </p>
         </div>
 
@@ -105,6 +105,11 @@ export function TokenOverviewSection() {
             </div>
           ))}
         </div>
+        <p className="text-xs sm:text-sm text-white/70 font-light text-center max-w-3xl mx-auto mt-10 leading-relaxed">
+          The AxellaCoin trial-financing model described here is in development and not yet available. Royalty and
+          return terms are set per trial in its offering documents. Nothing on this site is an offer to sell, or a
+          solicitation of an offer to buy, any security or token.
+        </p>
       </div>
     </section>
   )

@@ -18,33 +18,33 @@ const steps = [
     number: 1,
     icon: Wallet,
     title: "Stake AXC",
-    subtitle: "Gain Governance Rights",
+    subtitle: "Platform Governance",
     description:
-      "Stake AXC to vote on which trials get funded through ecosera's stake-to-vote governance. Stakers receive community benefits including eligibility for future airdrops.",
+      "Stake AXC to vote on material platform changes and elect an investor representative. Funding decisions sit with an expert committee, not token votes. AXC carries no equity, ownership or profit rights.",
   },
   {
     number: 2,
     icon: Target,
-    title: "Participate in Funding",
-    subtitle: "Support Vetted Trials",
+    title: "Fund One Trial",
+    subtitle: "Trial-Specific SPVs",
     description:
-      "Accredited investors fund trials to receive RWA tokens: tokenized trial equity issued via Libertum (Reg D 506(c) / Reg S). Each trial launches its own SPV.",
+      "Accredited investors finance one trial at a time through a trial-specific SPV (Reg D 506(c) / Reg S). Capital is held in escrow until milestones are met.",
   },
   {
     number: 3,
     icon: BarChart3,
-    title: "Returns to Treasury",
-    subtitle: "Value Flows Back",
+    title: "Verified Milestones",
+    subtitle: "Release on Evidence",
     description:
-      "A portion of net profits from funding deals flows to the Treasury, creating sustainable value for the ecosystem.",
+      "An expert scientific and investment committee selects programs. Tranches are released only when an independent verifier confirms a milestone from Ecosera's trial evidence.",
   },
   {
     number: 4,
     icon: Gift,
-    title: "Reinvest & Reward",
-    subtitle: "Community Benefits",
+    title: "Trial Economics",
+    subtitle: "RWA Holders",
     description:
-      "Treasury performs buybacks, airdrops, and new funding rounds, rewarding the AXC community and driving growth.",
+      "RWA holders receive a tiered royalty on the molecule and a capped share of licensing or exit proceeds. Unreleased tranches return to investors if a trial stops.",
   },
 ]
 
@@ -59,7 +59,7 @@ const ecosystemNodes = [
   {
     icon: Shield,
     title: "Trial SPV (RWA)",
-    subtitle: "Compliant fractionalized equity",
+    subtitle: "Economic rights in one trial",
     color: "#26C8B8",
     angle: 60,
   },
@@ -87,7 +87,7 @@ const ecosystemNodes = [
   {
     icon: Users,
     title: "Community",
-    subtitle: "Governance, staking, rewards",
+    subtitle: "Platform governance",
     color: "#26C8B8",
     angle: 300,
   },
@@ -117,12 +117,12 @@ export function HowItWorksSection() {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extralight text-white mb-6 leading-tight tracking-tight text-balance">
             How AXC
             <br />
-            <span className="text-[#26C8B8] font-thin">Creates Value</span>
+            <span className="text-[#26C8B8] font-thin">Funds Trials</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto font-light leading-relaxed">
-            A continuous regenerative loop where funding flows into innovation, returns flow to treasury,
+            Capital is raised for one trial, released only as each milestone is verified,
             <br className="hidden sm:block" />
-            and value continuously reinvests into the community and new breakthroughs
+            and reported back from live trial data on Ecosera
           </p>
         </div>
 

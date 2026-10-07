@@ -26,7 +26,7 @@ export function StakingSection() {
             Stake-to-Support Program
           </h2>
           <p className="text-base sm:text-lg text-white/90 font-light max-w-2xl mx-auto">
-            Support Real-World Trials, Earn Rewards
+            Support Real-World Trials, Shape the Platform
           </p>
         </div>
 
@@ -34,8 +34,8 @@ export function StakingSection() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12">
             <div className="space-y-5">
               <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                Support clinical trials by staking AXC and earn milestone-based rewards. Your stake helps fund
-                compassionate use protocols.
+                Stake AXC to take part in platform governance and show support for compassionate use programs.
+                Staking carries no equity, ownership or profit rights.
               </p>
 
               <div className="space-y-3">
@@ -43,8 +43,8 @@ export function StakingSection() {
                   { icon: Coins, title: "Minimum Stake", desc: "500 AXC tokens required" },
                   {
                     icon: TrendingUp,
-                    title: "Milestone Rewards",
-                    desc: "Earn as trials reach key milestones",
+                    title: "Platform Governance",
+                    desc: "Vote on material platform changes",
                   },
                   {
                     icon: Shield,

@@ -16,7 +16,7 @@ export function InvestmentOpportunitiesSection() {
       title: "Alzheimer's Discovery",
       stage: "Pre-clinical",
       minTicket: "$10,000",
-      token: "AXC",
+      token: "RWA",
       region: "Global",
       description: "Novel small-molecule modulating microglial activation; IND-enabling studies",
       raise: "$500K",
@@ -37,7 +37,7 @@ export function InvestmentOpportunitiesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-3">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-thin text-white text-balance">
-            Investment <span className="text-[#26C8B8]">Opportunities</span>
+            Trial <span className="text-[#26C8B8]">Pipeline</span>
           </h2>
           <p className="text-lg text-white/90 max-w-3xl mx-auto font-light leading-relaxed">
             Illustrative projects; replace with live listings. Eligibility depends on jurisdiction and KYC.

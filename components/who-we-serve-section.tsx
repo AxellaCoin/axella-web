@@ -13,7 +13,7 @@ const tabs = [
     icon: TrendingUp,
     headline: "Support Medical Research. Shape the Future of Healthcare.",
     benefits: [
-      "Governance Rights: Use your AXC tokens to vote on which groundbreaking research projects get funded.",
+      "Governance Rights: Use AXC to vote on material platform changes and elect an investor representative.",
       "Ecosystem Participation: Hold AXC to participate in a growing healthcare innovation ecosystem.",
       "Transparent Impact: Track exactly how your tokens support real medical research through blockchain verification.",
     ],

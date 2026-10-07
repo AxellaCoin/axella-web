@@ -18,10 +18,10 @@ export function GovernanceHubSection() {
       title: "Community Governance (AXC)",
       description: "AXC token holders participate in key ecosystem decisions",
       features: [
-        "Vote on trial funding proposals",
-        "Approve new research categories",
-        "Set community treasury allocations",
+        "Vote on material platform changes",
+        "Elect an investor representative",
         "Propose ecosystem improvements",
+        "Funding decisions sit with an expert committee",
       ],
     },
     platform: {
@@ -35,12 +35,12 @@ export function GovernanceHubSection() {
       ],
     },
     equity: {
-      title: "Equity Governance (RWA)",
-      description: "Trial-specific governance for equity token holders",
+      title: "Trial Economics (RWA)",
+      description: "Reporting and rights for trial-specific RWA holders",
       features: [
-        "Monitor trial milestones",
-        "Review financial allocations",
-        "Vote on major trial decisions",
+        "Monitor verified milestones",
+        "Milestone and royalty statements",
+        "Unreleased tranches return if a trial stops",
         "Access detailed progress reports",
       ],
     },

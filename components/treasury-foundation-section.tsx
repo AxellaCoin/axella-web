@@ -41,7 +41,7 @@ export function TreasuryFoundationSection() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
-                <span className="leading-relaxed">Executes AXC buybacks and reinvestment</span>
+                <span className="leading-relaxed">Manages reinvestment into new trials</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
@@ -64,7 +64,7 @@ export function TreasuryFoundationSection() {
             <ul className="space-y-3 text-white/90 font-light">
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
-                <span className="leading-relaxed">Deploys grants under AXC governance votes</span>
+                <span className="leading-relaxed">Deploys compassionate-use grants</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
