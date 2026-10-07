@@ -20,7 +20,7 @@ const steps = [
     title: "Stake AXC",
     subtitle: "Gain Governance Rights",
     description:
-      "Stake AXC to mint TT-G (Tokenized Trial Governance) NFTs, granting you governance rights to participate in curated trials. Stakers receive community benefits including eligibility for future airdrops and boosts when holding governance NFTs.",
+      "Stake AXC to vote on which trials get funded through ecosera's stake-to-vote governance. Stakers receive community benefits including eligibility for future airdrops.",
   },
   {
     number: 2,
@@ -28,7 +28,7 @@ const steps = [
     title: "Participate in Funding",
     subtitle: "Support Vetted Trials",
     description:
-      "Fund trials with fiat currency to receive TT-E (Tokenized Trial Equity) tokens representing equity positions in clinical trials. Each trial launches its own fractionalized NFT.",
+      "Accredited investors fund trials to receive RWA tokens: tokenized trial equity issued via Libertum (Reg D 506(c) / Reg S). Each trial launches its own SPV.",
   },
   {
     number: 3,
@@ -52,13 +52,13 @@ const ecosystemNodes = [
   {
     icon: Coins,
     title: "Investors",
-    subtitle: "Provide capital via TT-E",
+    subtitle: "Provide capital via RWA tokens",
     color: "#26C8B8",
     angle: 0, // top
   },
   {
     icon: Shield,
-    title: "TT-E SPV",
+    title: "Trial SPV (RWA)",
     subtitle: "Compliant fractionalized equity",
     color: "#26C8B8",
     angle: 60,

@@ -1,69 +1,53 @@
-import { Coins, Users, Vote, DollarSign } from "lucide-react"
+import { Coins, Vote, DollarSign } from "lucide-react"
 
 export function TokenOverviewSection() {
   const tokens = [
     {
-      name: "TT-E",
+      name: "AXC",
+      fullName: "AxellaCoin",
+      icon: Vote,
+      type: "Governance & Utility Token",
+      color: "#26C8B8",
+      borderColor: "rgba(38, 200, 184, 0.4)",
+      description:
+        "The ecosystem's governance and utility token. Stake AXC to vote on which trials get funded on the ecosera platform. AXC does not represent equity, ownership, or profit rights.",
+      features: [
+        "1B fixed supply",
+        "$0.35 presale price",
+        "Stake-to-vote governance on trial funding",
+        "Treasury buyback & burn",
+      ],
+    },
+    {
+      name: "AXUSD",
+      fullName: "Operations Stablecoin",
+      icon: DollarSign,
+      type: "Payment Rail",
+      color: "#26C8B8",
+      borderColor: "rgba(38, 200, 184, 0.4)",
+      description:
+        "USD-pegged stablecoin for all platform payments: CRO bids, site payments, vendor invoices, and patient stipends. Keeps trial cash flows stable, predictable, and auditable.",
+      features: [
+        "1:1 USD peg for stability",
+        "Milestone-based trial and site payments",
+        "Vendor invoices and patient stipends",
+        "Transparent, auditable flows",
+      ],
+    },
+    {
+      name: "RWA",
       fullName: "Tokenized Trial Equity",
       icon: Coins,
       type: "Securities Token",
       color: "#26C8B8",
       borderColor: "rgba(38, 200, 184, 0.4)",
       description:
-        "Digital fractional equity in clinical trials issued through Special Purpose Vehicles (SPVs). Available exclusively to accredited investors under Reg D / Reg S.",
+        "Tokenized equity in individual funded trials, issued via Libertum through trial-specific SPVs. Offered under Reg D 506(c) in the US and Reg S internationally, to accredited investors only.",
       features: [
-        "Represents equity ownership in trial SPVs",
-        "Accredited investors only (Reg D / Reg S)",
-        "Potential returns tied to trial success and exits",
-        "Transparent on-chain tracking",
-      ],
-    },
-    {
-      name: "TT-G",
-      fullName: "Tokenized Trial Governance",
-      icon: Vote,
-      type: "Governance Token",
-      color: "#094068",
-      borderColor: "rgba(9, 64, 104, 0.4)",
-      description:
-        "Non-equity governance token enabling community members to prioritize trials, vote on Foundation initiatives, and guide ecosystem direction. No investment returns.",
-      features: [
-        "Vote on trial prioritization and funding",
-        "Participate in governance proposals",
-        "Non-equity, non-securities token",
-        "Earned through AXC staking and participation",
-      ],
-    },
-    {
-      name: "AXC",
-      fullName: "AxellaCoin",
-      icon: Users,
-      type: "Utility Token",
-      color: "#26C8B8",
-      borderColor: "rgba(38, 200, 184, 0.4)",
-      description:
-        "Primary ecosystem utility token for staking, access rights, rewards distribution, and platform alignment. Powers all interactions within the AxellaCoin ecosystem.",
-      features: [
-        "Stake for governance rights (TT-G)",
-        "Access to CRO services (future)",
-        "Treasury buybacks and rewards",
-        "Ecosystem utility and alignment",
-      ],
-    },
-    {
-      name: "cUSD-Clinical",
-      fullName: "Clinical Stablecoin",
-      icon: DollarSign,
-      type: "Payment Rail",
-      color: "#26C8B8",
-      borderColor: "rgba(38, 200, 184, 0.4)",
-      description:
-        "USD-pegged stablecoin used for all vendor payments and trial disbursements. Ensures predictable cash flows, clean accounting, and regulatory compliance.",
-      features: [
-        "1:1 USD peg for stability",
-        "All vendor and trial payments",
-        "Transparent, auditable flows",
-        "Optional AXC rewards for Pioneer Vendors",
+        "Equity in trial-specific SPVs",
+        "Libertum-issued, SEC-compliant offering",
+        "Accredited investors only (Reg D 506(c) / Reg S)",
+        "Milestone-vested",
       ],
     },
   ]
@@ -77,16 +61,16 @@ export function TokenOverviewSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16 md:mb-20">
           <h2 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-thin text-white mb-6 leading-[1.1] tracking-tight text-balance">
-            Token
+            Three-Layer Token
             <br />
             <span className="text-accent-cyan">Architecture</span>
           </h2>
           <p className="text-lg sm:text-xl text-white/90 max-w-3xl mx-auto font-light leading-relaxed">
-            Four distinct tokens powering a compliant, transparent clinical research ecosystem
+            Purpose-built on Cardano. Governance, operations, and equity, each with a distinct token role.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           {tokens.map((token) => (
             <div
               key={token.name}

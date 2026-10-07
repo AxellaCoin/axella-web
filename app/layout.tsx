@@ -12,7 +12,7 @@ const publicSans = Public_Sans({
 
 export const metadata: Metadata = {
   title: "AxellaCoin - Fund Life-Saving Medical Research With Cryptocurrency",
-  description: "Invest in medical research that traditional funding won't touch. You vote. You profit. You save lives.",
+  description: "Fund medical research that traditional funding won't touch. Stake AXC to vote on trials; ecosera runs them.",
   generator: "v0.app",
 }
 

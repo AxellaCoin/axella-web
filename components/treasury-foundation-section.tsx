@@ -37,7 +37,7 @@ export function TreasuryFoundationSection() {
             <ul className="space-y-3 text-white/90 font-light">
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
-                <span className="leading-relaxed">Holds TT-E proceeds and exit gains</span>
+                <span className="leading-relaxed">Holds RWA proceeds and exit gains</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
@@ -64,7 +64,7 @@ export function TreasuryFoundationSection() {
             <ul className="space-y-3 text-white/90 font-light">
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>
-                <span className="leading-relaxed">Deploys grants under TT-G guidance</span>
+                <span className="leading-relaxed">Deploys grants under AXC governance votes</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#26C8B8] mt-1 text-xl">•</span>

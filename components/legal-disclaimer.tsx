@@ -27,41 +27,23 @@ export function LegalDisclaimer() {
 
               <div className="space-y-6">
                 <div>
-                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">AXC (AxellaCoin) - Utility Token</h4>
+                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">AXC (AxellaCoin) - Governance &amp; Utility Token</h4>
                   <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                    AXC is a utility token for ecosystem access and alignment. It does not represent equity, ownership,
-                    or profit rights. Acquire AXC to access the ecosystem and participate in TT-G-based governance.
+                    AXC is the governance and utility token of the AxellaCoin / ecosera ecosystem (1B fixed supply). Staking AXC lets holders vote on which trials get funded. AXC does not represent equity, ownership, or profit rights.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">
-                    TT-E (Tokenized Trial Equity) - Securities Token
-                  </h4>
+                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">RWA (Tokenized Trial Equity) - Securities Token</h4>
                   <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                    TT-E represents digital fractional equity in clinical trial SPVs. Available exclusively to
-                    accredited investors under Reg D / Reg S. This is a regulated security offering with potential
-                    investment returns tied to trial success.
+                    RWA tokens represent equity in individual funded clinical trials, issued via Libertum through trial-specific SPVs. They are offered under Reg D 506(c) in the US and Reg S internationally, to accredited investors only. This is a regulated security offering, separate from AXC.
                   </p>
                 </div>
 
                 <div>
-                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">
-                    TT-G (Tokenized Trial Governance) - Governance/Utility Token
-                  </h4>
+                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">AXUSD - Stablecoin Payment Rail</h4>
                   <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                    TT-G is a non-equity governance token enabling community members to vote on trial priorities and
-                    Foundation initiatives. It does not represent securities and provides no investment returns.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-medium text-white mb-2 text-base sm:text-lg">
-                    cUSD-Clinical - Stablecoin Payment Rail
-                  </h4>
-                  <p className="text-sm sm:text-base text-white/90 font-light leading-relaxed">
-                    cUSD-Clinical is a USD-pegged stablecoin used exclusively for vendor payments and trial
-                    disbursements. It provides stable, predictable payment flows with transparent on-chain tracking.
+                    AXUSD is a USD-pegged stablecoin used for platform payments: CRO bids, site payments, vendor invoices, and patient stipends. It provides stable, predictable payment flows with transparent on-chain tracking.
                   </p>
                 </div>
               </div>
@@ -77,7 +59,7 @@ export function LegalDisclaimer() {
               "Support for trial funding initiatives",
               "Participation in Stake-to-Support campaigns",
               "Access to CRO services (future phase)",
-              "Governance participation via DAO (future)",
+              "Stake-to-vote governance on trial funding",
             ].map((item, index) => (
               <li key={index} className="text-sm sm:text-base text-white/90 font-light flex items-start gap-2">
                 <span className="text-[#26C8B8] mt-1">•</span>

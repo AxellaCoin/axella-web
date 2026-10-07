@@ -15,7 +15,7 @@ export function StakeSupportSection() {
     },
     {
       title: "Private Supporter Cohort",
-      description: "Exclusive Discord for stakers and NFT holders",
+      description: "Exclusive Discord for AXC stakers",
       icon: Users,
     },
     {

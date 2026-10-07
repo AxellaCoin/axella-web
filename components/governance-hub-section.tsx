@@ -35,7 +35,7 @@ export function GovernanceHubSection() {
       ],
     },
     equity: {
-      title: "Equity Governance (TT-E)",
+      title: "Equity Governance (RWA)",
       description: "Trial-specific governance for equity token holders",
       features: [
         "Monitor trial milestones",

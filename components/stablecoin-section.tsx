@@ -40,7 +40,7 @@ export function StablecoinSection() {
             </h2>
 
             <p className="text-lg sm:text-xl text-white/90 mb-8 font-light leading-relaxed">
-              Vendor and trial payments via cUSD-Clinical, our USD-pegged stablecoin for clinical research.
+              Vendor and trial payments via AXUSD, our USD-pegged stablecoin for clinical research.
             </p>
 
             <div className="space-y-6">
@@ -69,7 +69,7 @@ export function StablecoinSection() {
                 <div>
                   <h4 className="text-base font-light text-white mb-1">Trial Funding Approved</h4>
                   <p className="text-sm text-white/80 font-light leading-relaxed">
-                    Milestone-based payments in cUSD-Clinical
+                    Milestone-based payments in AXUSD
                   </p>
                 </div>
               </div>
